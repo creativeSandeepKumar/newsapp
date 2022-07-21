@@ -1,0 +1,46 @@
+.newsItem-section {
+    
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 1px solid #000;
+    margin-top: 1rem;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.newsItem-badge {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 2px 8px;
+    background-color: red;
+}
+.newsItem-padding {
+    padding: 4px 2rem;
+}
+
+.newsItem-title {
+    font-size: 1.2rem;
+    padding: 3px 0;
+}
+.newsItem-description {
+    font-size: 1.1rem;
+    padding: 3px 0;
+}
+.newsItem-author {
+    padding: 3px 0;
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.newsItem-section img {
+    height: 300px;
+    object-fit: cover;
+}
